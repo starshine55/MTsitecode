@@ -1,0 +1,152 @@
+@font-face {
+	font-family:'yekan';
+	src:url('../font/Yekan.ttf') format('ttf'),url('../font/Yekan.woff') format('woff');
+}
+body
+{
+	font-family:'yekan','Arial';
+	background-image:url('../images/main4.png');
+	max-width:100%;
+	height:655PX;
+	margin:0px;
+	padding:0px;
+	background-position:center;
+	background-size:cover;
+	
+	
+}
+.pagehed{
+	max-width: 100%;
+	height:28%;
+	position: relative;
+	background-repeat: no-repeat;
+	direction: rtl;
+
+}
+.titr{
+	color:#726659;
+	position: absolute;
+	top:18px;
+	left:48%;
+	font-size: 30px;
+}
+.base{
+	position: absolute;
+	top:100px;
+	left:45%;
+}
+#char{
+position:absolute ;
+max-width: 118px;
+top:25px;
+right:20px;
+	
+}
+#backhome{
+	color:#726659;
+    position: relative;
+	padding-right:40px;
+    top:99px;
+	right:110px;
+	width:120px;
+	
+}
+.aaa{
+	font-size:22px;
+	color:#726659;
+	text-decoration: none;
+    position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+
+#logomt{
+	position: absolute;
+	max-width: 100px;
+	left: 5%;
+	top: 30px;
+}
+
+#border{
+	position:relative;
+	top:150px;
+}
+
+#gallery-wrapper{
+	width:980px;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius:50px
+}
+.gallery-item{
+	width: 300px;
+	float: right;
+	padding: 10px;
+	border: 1px solid #dec7a2;
+	text-align: center;
+	
+}
+
+.b1{
+	border-radius: 20px;
+	opacity:0.4;
+}
+.b1:hover{
+	opacity: 1;
+}
+
+.desc{
+	text-align: center;
+	color: #726659;
+	font-size: 0.8vw;
+	  opacity: 0.9;
+}
+
+#footerborder{
+	width: 100%;
+	height:25px;
+}
+.boxfab{
+	position: absolute;
+	margin-top:0px;
+	margin-left:10px;
+	display: flex;
+}
+a:hover{
+	text-decoration: none;
+}
+.fab{
+	color: #726659;
+	font-size: 20px;
+	transition: 0.5s;
+
+}
+.fas{
+	color: #726659;
+	font-size: 20px;
+	transition: 0.5s;
+
+}
+  .totala{
+	position: relative;
+	padding:5px;
+	margin: 0 5px;
+    transition: 0.5s;
+}
+.totala:nth-child(1) a:hover .fab{
+	color: #3b5998;
+}
+.totala:nth-child(2) a:hover .fab{
+	color: #db1690;
+}
+.totala:nth-child(3) a:hover .fab{
+	color: #51bdd8;
+}
+.totala:nth-child(4) a:hover .fab{
+	color: #47d81b;
+}
+.totala:nth-child(5) a:hover .fas{
+	color: #790303;
+}
+
+
